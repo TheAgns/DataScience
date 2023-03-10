@@ -11,7 +11,7 @@ So in my experience these techniques can be very useful for understanding comple
 So overall I think that these techniques can be valuable for analyzing data in Python, but it is important to approach the analysis with a critical eye and to be able to consider the possible strengths and the possible limitations of the available methods. The heatmap used helps describe the relationship between two variables across different categories, making it a useful tool for exploratory data analysis and visualization, maybe not 100% useful from this dataset, but it's a good way to represent an visuliaze and even better in larger datasets.
 
 # Second assignment(Machine Learning)
-
+##### The Second study point assignment can be found in the folder structure -> MachineLearning -> MachineLearningSPTASK.ipynb
 Which methods and algorithms have you applied and why?
 i've used Random Forest Classifier which can provide a measure of feature importance, which can help in feature selection and understanding the underlying patterns in the data.
 on the other hand i used Logistic Regression which serves low variance which means that it is less likely to overfit the data, making it a good choice for me when the data is limited.
