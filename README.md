@@ -21,3 +21,18 @@ Some challenges i experienced when working with the data was underfitting which 
 My solution isn't that accurate, it's only 50%. With both Random Tree Classifier and Logistic regression because i wasn't able to feed my model with quite enough data, to make it reliable and make the accuracy from the training better.
 ### • What else needs to be done for improvement of the accuracy of the solution?
 One of the biggest "mistakes" or things that makes the accuracy of my different machine learning models only 50% accuracy, have something to do with the amount of data i used to train my model with. When you give it almost no data, you can't execpt the model to accuracte, therefore larger amount of datasets, make it more reliable and makes the accuracy much better.
+
+# Third assignment (NLP)
+##### The third study point assignment can be found in the folder structure -> NLP -> NLP and NLU .ipynb
+Provide a brief discussion on the possible advantages of NLP implementation, as well as on the difficulties you have experienced developing it.
+
+One of the main advantages of using NLP is the way you are able to automate reptitive activites. It is very efficent with its algorithms to analyse largere volumes of text data to be able to automate some processes like setiment analysis, classifitcation and so on. We can also use NLP to improve the satisfaction from your customers if you run a business. chatbots are usally NLP-powered therefore it's a big deal in this area.
+
+However it can also be challenging to develop NLP models due to the complexity of the natural language.
+One of the bigger problems is to secure that the models are able to comprehend human langugaes subleties like sarcasm and figurative language. Another problem i could imagine would be making the models able to handle tons of different dialects in every language.
+
+Another problem i could think of would be that the NLP models needs annotated data. With that i mean that the data have been labled with infomation, just like i did in the assginment with the parts of speech, setiment and named entities. This data is also used to train NLP models, but the problem is getting a high quality of annotated data, because if have to be "perfect". That can take a long time, and in the long run cost alot of money too.
+
+
+
+
