@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_71be4840fa232e7e55e5960b8d244a8a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_71be4840fa232e7e55e5960b8d244a8a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_71be4840fa232e7e55e5960b8d244a8a = L.map(
+                "map_71be4840fa232e7e55e5960b8d244a8a",
+                {
+                    center: [52.12635128000001, 19.230327140000007],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_00b4e2f5404aa2e2f2bff43e67768e60 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_71be4840fa232e7e55e5960b8d244a8a);
+        
+    
+            var marker_8b3a2a78647666776c81e7177e048585 = L.marker(
+                [55.72993, 12.4648],
+                {}
+            ).addTo(map_71be4840fa232e7e55e5960b8d244a8a);
+        
+    
+        var popup_e26dafe38ba2303c25258f3dd9d1c166 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_88869b4b59fb4fa02b3540e673cadc2d = $(`<div id="html_88869b4b59fb4fa02b3540e673cadc2d" style="width: 100.0%; height: 100.0%;">Generatorvej 21</div>`)[0];
+                popup_e26dafe38ba2303c25258f3dd9d1c166.setContent(html_88869b4b59fb4fa02b3540e673cadc2d);
+            
+        
+
+        marker_8b3a2a78647666776c81e7177e048585.bindPopup(popup_e26dafe38ba2303c25258f3dd9d1c166)
+        ;
+
+        
+    
+    
+            var marker_e044c009a8cd4608d8746eb86711adea = L.marker(
+                [55.757949, 12.228728],
+                {}
+            ).addTo(map_71be4840fa232e7e55e5960b8d244a8a);
+        
+    
+        var popup_44bc295e1046bfcdb4b5b3a9002ee0c1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b70d08353cb3e4d97818feaa8398eade = $(`<div id="html_b70d08353cb3e4d97818feaa8398eade" style="width: 100.0%; height: 100.0%;">Lille Veksøvej 11</div>`)[0];
+                popup_44bc295e1046bfcdb4b5b3a9002ee0c1.setContent(html_b70d08353cb3e4d97818feaa8398eade);
+            
+        
+
+        marker_e044c009a8cd4608d8746eb86711adea.bindPopup(popup_44bc295e1046bfcdb4b5b3a9002ee0c1)
+        ;
+
+        
+    
+    
+            var marker_9f78c6ebed8a0b1dc1d8f7b1f1953a25 = L.marker(
+                [55.733204, 12.391164],
+                {}
+            ).addTo(map_71be4840fa232e7e55e5960b8d244a8a);
+        
+    
+        var popup_aa0673e254fe513d29f37277acf88e11 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eca47614fc8e7105931e8cf6af97ed87 = $(`<div id="html_eca47614fc8e7105931e8cf6af97ed87" style="width: 100.0%; height: 100.0%;">Lautrupvang 1</div>`)[0];
+                popup_aa0673e254fe513d29f37277acf88e11.setContent(html_eca47614fc8e7105931e8cf6af97ed87);
+            
+        
+
+        marker_9f78c6ebed8a0b1dc1d8f7b1f1953a25.bindPopup(popup_aa0673e254fe513d29f37277acf88e11)
+        ;
+
+        
+    
+    
+            var marker_d8d2f0ee76bea0c89e92b24fa0e87a35 = L.marker(
+                [55.733204, 12.391164],
+                {}
+            ).addTo(map_71be4840fa232e7e55e5960b8d244a8a);
+        
+    
+        var popup_3741b00b9d0ec9bb4fed3a0d848daa8f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a822f9aae31e83ef73b3100dfa6c6f60 = $(`<div id="html_a822f9aae31e83ef73b3100dfa6c6f60" style="width: 100.0%; height: 100.0%;">Lautrupvang 1</div>`)[0];
+                popup_3741b00b9d0ec9bb4fed3a0d848daa8f.setContent(html_a822f9aae31e83ef73b3100dfa6c6f60);
+            
+        
+
+        marker_d8d2f0ee76bea0c89e92b24fa0e87a35.bindPopup(popup_3741b00b9d0ec9bb4fed3a0d848daa8f)
+        ;
+
+        
+    
+    
+            var marker_603cbad5dcd3d3f199dd65090a9ef534 = L.marker(
+                [55.733204, 12.391164],
+                {}
+            ).addTo(map_71be4840fa232e7e55e5960b8d244a8a);
+        
+    
+        var popup_b43eaf93a1e04cb38508f36f346e5cfc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c609c6258ef5bccf87ca65c495a4272 = $(`<div id="html_4c609c6258ef5bccf87ca65c495a4272" style="width: 100.0%; height: 100.0%;">Lautrupvang 1</div>`)[0];
+                popup_b43eaf93a1e04cb38508f36f346e5cfc.setContent(html_4c609c6258ef5bccf87ca65c495a4272);
+            
+        
+
+        marker_603cbad5dcd3d3f199dd65090a9ef534.bindPopup(popup_b43eaf93a1e04cb38508f36f346e5cfc)
+        ;
+
+        
+    
+    
+            var marker_840750c023c5bf78127d5dcddd573c6a = L.marker(
+                [55.754555, 12.455185],
+                {}
+            ).addTo(map_71be4840fa232e7e55e5960b8d244a8a);
+        
+    
+        var popup_bcacc0313b9f82e3207ad134e72da87e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f65321a6af5725369662482e9af903c1 = $(`<div id="html_f65321a6af5725369662482e9af903c1" style="width: 100.0%; height: 100.0%;">Novo Alle 1</div>`)[0];
+                popup_bcacc0313b9f82e3207ad134e72da87e.setContent(html_f65321a6af5725369662482e9af903c1);
+            
+        
+
+        marker_840750c023c5bf78127d5dcddd573c6a.bindPopup(popup_bcacc0313b9f82e3207ad134e72da87e)
+        ;
+
+        
+    
+    
+            var marker_9fdf48b55eb10f458da10b97b1fec4be = L.marker(
+                [55.708655, 12.591288],
+                {}
+            ).addTo(map_71be4840fa232e7e55e5960b8d244a8a);
+        
+    
+        var popup_23ce64235c880ce744ebfa170559e54b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e8527b3de9794a4ef47ffa6912311faa = $(`<div id="html_e8527b3de9794a4ef47ffa6912311faa" style="width: 100.0%; height: 100.0%;">Sundkrogsgade 4</div>`)[0];
+                popup_23ce64235c880ce744ebfa170559e54b.setContent(html_e8527b3de9794a4ef47ffa6912311faa);
+            
+        
+
+        marker_9fdf48b55eb10f458da10b97b1fec4be.bindPopup(popup_23ce64235c880ce744ebfa170559e54b)
+        ;
+
+        
+    
+    
+            var marker_27b0de9f8896625d6e6816a70166b865 = L.marker(
+                [55.734142, 12.380579],
+                {}
+            ).addTo(map_71be4840fa232e7e55e5960b8d244a8a);
+        
+    
+        var popup_706c35e9f100b3f1a90864ba043d5141 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a2832dfc6491ba32a4fad1f9a9d72d32 = $(`<div id="html_a2832dfc6491ba32a4fad1f9a9d72d32" style="width: 100.0%; height: 100.0%;">Borupvang 4</div>`)[0];
+                popup_706c35e9f100b3f1a90864ba043d5141.setContent(html_a2832dfc6491ba32a4fad1f9a9d72d32);
+            
+        
+
+        marker_27b0de9f8896625d6e6816a70166b865.bindPopup(popup_706c35e9f100b3f1a90864ba043d5141)
+        ;
+
+        
+    
+    
+            var marker_41974afdc4cca1b84a7cb931edf4172b = L.marker(
+                [55.73613, 12.393105],
+                {}
+            ).addTo(map_71be4840fa232e7e55e5960b8d244a8a);
+        
+    
+        var popup_1f6afd9a3e08e47be18734506d4f9cee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_290c24154f15b74eea1e1c97790fd50d = $(`<div id="html_290c24154f15b74eea1e1c97790fd50d" style="width: 100.0%; height: 100.0%;">Lautrupparken 40</div>`)[0];
+                popup_1f6afd9a3e08e47be18734506d4f9cee.setContent(html_290c24154f15b74eea1e1c97790fd50d);
+            
+        
+
+        marker_41974afdc4cca1b84a7cb931edf4172b.bindPopup(popup_1f6afd9a3e08e47be18734506d4f9cee)
+        ;
+
+        
+    
+    
+            var marker_fb4f7964b29ea48edeb78e29d4220495 = L.marker(
+                [55.73613, 12.393105],
+                {}
+            ).addTo(map_71be4840fa232e7e55e5960b8d244a8a);
+        
+    
+        var popup_11748bbf3c88c4d23d8128182772290a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_796fa1893a009c8466234218e64be5f0 = $(`<div id="html_796fa1893a009c8466234218e64be5f0" style="width: 100.0%; height: 100.0%;">Lautrupparken 40</div>`)[0];
+                popup_11748bbf3c88c4d23d8128182772290a.setContent(html_796fa1893a009c8466234218e64be5f0);
+            
+        
+
+        marker_fb4f7964b29ea48edeb78e29d4220495.bindPopup(popup_11748bbf3c88c4d23d8128182772290a)
+        ;
+
+        
+    
+    
+            var marker_54ede69b42f0e4789234b74611eab4bf = L.marker(
+                [55.73613, 12.393105],
+                {}
+            ).addTo(map_71be4840fa232e7e55e5960b8d244a8a);
+        
+    
+        var popup_6bf5f9d2ce24bb840f2f98ae6f5abe76 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b9a626e65356f7aa2c966de88ba0e8d0 = $(`<div id="html_b9a626e65356f7aa2c966de88ba0e8d0" style="width: 100.0%; height: 100.0%;">Lautrupparken 40</div>`)[0];
+                popup_6bf5f9d2ce24bb840f2f98ae6f5abe76.setContent(html_b9a626e65356f7aa2c966de88ba0e8d0);
+            
+        
+
+        marker_54ede69b42f0e4789234b74611eab4bf.bindPopup(popup_6bf5f9d2ce24bb840f2f98ae6f5abe76)
+        ;
+
+        
+    
+    
+            var marker_102cc45ca3b5a5e22bce8901e3e35c85 = L.marker(
+                [47.27541, 8.4897],
+                {}
+            ).addTo(map_71be4840fa232e7e55e5960b8d244a8a);
+        
+    
+        var popup_05d04f76bb64b28a307f291799c708cb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f73c5203c3322971cf2ce7f361fb2fe7 = $(`<div id="html_f73c5203c3322971cf2ce7f361fb2fe7" style="width: 100.0%; height: 100.0%;">Wildersgade 51, 1</div>`)[0];
+                popup_05d04f76bb64b28a307f291799c708cb.setContent(html_f73c5203c3322971cf2ce7f361fb2fe7);
+            
+        
+
+        marker_102cc45ca3b5a5e22bce8901e3e35c85.bindPopup(popup_05d04f76bb64b28a307f291799c708cb)
+        ;
+
+        
+    
+    
+            var marker_d1c78ff56f860b16836033bd7dec63c5 = L.marker(
+                [26.58333, 87.91667],
+                {}
+            ).addTo(map_71be4840fa232e7e55e5960b8d244a8a);
+        
+    
+        var popup_f922f8dceefc46f354909ede56375508 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6d4d07efd0592b882b6b02b727f91c7d = $(`<div id="html_6d4d07efd0592b882b6b02b727f91c7d" style="width: 100.0%; height: 100.0%;">Gothersgade 14, 4</div>`)[0];
+                popup_f922f8dceefc46f354909ede56375508.setContent(html_6d4d07efd0592b882b6b02b727f91c7d);
+            
+        
+
+        marker_d1c78ff56f860b16836033bd7dec63c5.bindPopup(popup_f922f8dceefc46f354909ede56375508)
+        ;
+
+        
+    
+    
+            var marker_2081b43eb27eca2b8eccf5c821135d51 = L.marker(
+                [26.58333, 87.91667],
+                {}
+            ).addTo(map_71be4840fa232e7e55e5960b8d244a8a);
+        
+    
+        var popup_4028dbd31ac0ee0c8637564968f1c27a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_228c098b375f533eb6279cba70029553 = $(`<div id="html_228c098b375f533eb6279cba70029553" style="width: 100.0%; height: 100.0%;">Gothersgade 14, 4</div>`)[0];
+                popup_4028dbd31ac0ee0c8637564968f1c27a.setContent(html_228c098b375f533eb6279cba70029553);
+            
+        
+
+        marker_2081b43eb27eca2b8eccf5c821135d51.bindPopup(popup_4028dbd31ac0ee0c8637564968f1c27a)
+        ;
+
+        
+    
+    
+            var marker_ba3216ebab54605f9437306222241d43 = L.marker(
+                [57.4299718, 10.5003634],
+                {}
+            ).addTo(map_71be4840fa232e7e55e5960b8d244a8a);
+        
+    
+        var popup_1fbd1b9052199d02ee3e520042b91dd0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fd5f2d6e63818ca20eb52e13400d8f7d = $(`<div id="html_fd5f2d6e63818ca20eb52e13400d8f7d" style="width: 100.0%; height: 100.0%;">Suderbovej 22-24</div>`)[0];
+                popup_1fbd1b9052199d02ee3e520042b91dd0.setContent(html_fd5f2d6e63818ca20eb52e13400d8f7d);
+            
+        
+
+        marker_ba3216ebab54605f9437306222241d43.bindPopup(popup_1fbd1b9052199d02ee3e520042b91dd0)
+        ;
+
+        
+    
+    
+            var marker_24fca59ee825b5223b9ae72fbf8732b7 = L.marker(
+                [57.4299718, 10.5003634],
+                {}
+            ).addTo(map_71be4840fa232e7e55e5960b8d244a8a);
+        
+    
+        var popup_77532f841718025752930b86f7fe6ec0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f97104630551ba4f7ee0e5f48e6cf8bf = $(`<div id="html_f97104630551ba4f7ee0e5f48e6cf8bf" style="width: 100.0%; height: 100.0%;">Suderbovej 22-24</div>`)[0];
+                popup_77532f841718025752930b86f7fe6ec0.setContent(html_f97104630551ba4f7ee0e5f48e6cf8bf);
+            
+        
+
+        marker_24fca59ee825b5223b9ae72fbf8732b7.bindPopup(popup_77532f841718025752930b86f7fe6ec0)
+        ;
+
+        
+    
+    
+            var marker_c4f56af2d2fd6bd239f337e3f26e3b5e = L.marker(
+                [55.653577, 12.544796],
+                {}
+            ).addTo(map_71be4840fa232e7e55e5960b8d244a8a);
+        
+    
+        var popup_688d3a1fb84c0f4117573f9e5f87bc1b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9e1e6abe3e0ab72fa42fd5a969dfbce9 = $(`<div id="html_9e1e6abe3e0ab72fa42fd5a969dfbce9" style="width: 100.0%; height: 100.0%;">Teglholmsgade 1</div>`)[0];
+                popup_688d3a1fb84c0f4117573f9e5f87bc1b.setContent(html_9e1e6abe3e0ab72fa42fd5a969dfbce9);
+            
+        
+
+        marker_c4f56af2d2fd6bd239f337e3f26e3b5e.bindPopup(popup_688d3a1fb84c0f4117573f9e5f87bc1b)
+        ;
+
+        
+    
+    
+            var marker_dc29adca9908df80cb1d3cd9b715b63a = L.marker(
+                [55.653577, 12.544796],
+                {}
+            ).addTo(map_71be4840fa232e7e55e5960b8d244a8a);
+        
+    
+        var popup_c718736e13c5f22f53af629cb8ca7bc0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c0cf55bfd46bc6b98a8ceac23cb6065 = $(`<div id="html_8c0cf55bfd46bc6b98a8ceac23cb6065" style="width: 100.0%; height: 100.0%;">Teglholmsgade 1</div>`)[0];
+                popup_c718736e13c5f22f53af629cb8ca7bc0.setContent(html_8c0cf55bfd46bc6b98a8ceac23cb6065);
+            
+        
+
+        marker_dc29adca9908df80cb1d3cd9b715b63a.bindPopup(popup_c718736e13c5f22f53af629cb8ca7bc0)
+        ;
+
+        
+    
+    
+            var marker_228a36d9bdb2804d821fd116b9a5a77a = L.marker(
+                [47.27541, 8.4897],
+                {}
+            ).addTo(map_71be4840fa232e7e55e5960b8d244a8a);
+        
+    
+        var popup_9f5be0bbb8075e663912e590dcd36d6d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b9a27cf95dff79e513bd59c7fa58a6e2 = $(`<div id="html_b9a27cf95dff79e513bd59c7fa58a6e2" style="width: 100.0%; height: 100.0%;">Grønningen 17, 1</div>`)[0];
+                popup_9f5be0bbb8075e663912e590dcd36d6d.setContent(html_b9a27cf95dff79e513bd59c7fa58a6e2);
+            
+        
+
+        marker_228a36d9bdb2804d821fd116b9a5a77a.bindPopup(popup_9f5be0bbb8075e663912e590dcd36d6d)
+        ;
+
+        
+    
+    
+            var marker_7f1429d79bfc3c7c91cd5566c3cf3f33 = L.marker(
+                [55.549215, 9.230097],
+                {}
+            ).addTo(map_71be4840fa232e7e55e5960b8d244a8a);
+        
+    
+        var popup_44c6a9551cf343ad0902c51454ade70a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d18032d7edf907dd21b99bccf3335e75 = $(`<div id="html_d18032d7edf907dd21b99bccf3335e75" style="width: 100.0%; height: 100.0%;">Ravnholtgyden 5</div>`)[0];
+                popup_44c6a9551cf343ad0902c51454ade70a.setContent(html_d18032d7edf907dd21b99bccf3335e75);
+            
+        
+
+        marker_7f1429d79bfc3c7c91cd5566c3cf3f33.bindPopup(popup_44c6a9551cf343ad0902c51454ade70a)
+        ;
+
+        
+    
+</script>
+</html>
