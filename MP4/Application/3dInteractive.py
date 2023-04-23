@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import pydeck as pdk
-
+#To run this file, cd into the folder Application where this file represented and run: streamlit run [the py name]
 addresses = {
     "Generatorvej 21": [55.72993, 12.4648], 
     "Lille Veksøvej 11": [55.757949, 12.228728], 

@@ -34,5 +34,12 @@ One of the bigger problems is to secure that the models are able to comprehend h
 Another problem i could think of would be that the NLP models needs annotated data. With that i mean that the data have been labled with infomation, just like i did in the assginment with the parts of speech, setiment and named entities. This data is also used to train NLP models, but the problem is getting a high quality of annotated data, because if have to be "perfect". That can take a long time, and in the long run cost alot of money too.
 
 
+# Fourth assignment(Visualisation)
+### The fourth study point assignment can be found in the folder structure -> MP4 -> MP4.ipynb and Application folder for the streamlit visualisation. all you have to do is cd into the folder, and run -> streamlit run "the file name"
+## I have made a next.js application to showcase how it can be implemented in an "real" webapplication.
+# Link: application-temp-jgzyy2zs8-theagns.vercel.app
+# Repo for the next.js: https://github.com/TheAgns/ApplicationTemp
+
+
 
 
